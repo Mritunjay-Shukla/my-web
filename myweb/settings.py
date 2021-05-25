@@ -32,9 +32,7 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
-CORS_ORIGIN_WHITELIST = [
-    'http://127.0.0.1:5500'
-]
+
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -44,8 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'contactus',
-    'rest_framework',
-    'corsheaders'
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
